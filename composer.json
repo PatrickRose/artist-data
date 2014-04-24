@@ -1,0 +1,20 @@
+{
+    "name": "patrickrose/artist-data",
+    "description": "Pull data from the artist data service",
+    "keywords": ["artist data"],
+    "license": "MIT",
+    "require": {
+        "guzzle/guzzle": "3.8.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master",
+        "php-vcr/php-vcr": "1.1.*",
+        "php-vcr/phpunit-testlistener-vcr": "1.1.*",
+        "phpunit/phpunit": "3.7.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "PatrickRose\\": "src"
+        }
+    }
+}
